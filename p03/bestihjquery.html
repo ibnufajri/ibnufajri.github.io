@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">    
+    <title>Bestih Jquery</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #FFE9A0;
+        }
+        table, th, td{
+            font-family: 'Prompt', sans-serif;
+            border: 1px solid black;    
+            border-collapse: collapse;
+            position: center;
+            padding-top: 13em;
+        }
+        th{
+            background-color: #CC3636;
+        }
+        th, td{
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            transition: 0.1s;
+        }
+        th:hover{
+            background-color: #ffffff;
+        }
+        td:hover{
+            background-color: #ffffff;
+        }
+        caption{
+            font-weight: bold;
+            margin: 10px;
+        }
+        button{
+            font-family: 'Prompt', sans-serif;
+            font-weight: bold;
+            background-color:  #CC3636;
+            color: white;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: 1.0s;
+        }
+        button:hover{
+        transform: scale(1.2);
+        }
+        .tombol{
+            text-align: center;
+        }
+        .ubah{
+            background-color: #CC3636;
+        }
+        </style>
+
+    <table align="center">
+        <caption>Top Markotop Bestih | jquery</caption>
+        <tr>
+        <tr bgcolor="FFC0CB">
+            <th>No.</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th colspan="2">Action</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Kevin Salsabil Arlandy</td>
+            <td>Cirebon</td>
+            <td class="ubah">Edit</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Muhammad Enricco Rizqy</td>
+            <td>Cirebon</td>
+            <td class="ubah">Edit</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Muhammad Andi Hermawan</td>
+            <td>Cirebon</td>
+            <td class="ubah">Edit</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Muhammad Arif Septianto</td>
+            <td>Cirebon</td>
+            <td class="ubah">Edit</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Muhammad Khoirul Huda</td>
+            <td>Cirebon</td>
+            <td class="ubah">Edit</td>
+        </tr>
+            </table>
+    <div class="tombol">
+        <a onclick="alert('Apakah kamu ingin kembali ke Main Page?')" href="../index.html">
+            <button>Kembali</button>
+        </a>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(() => {
+        $("td").click(function (event) {
+        alert("Saat ini anda mengklik kolom yang berisi kata " + $(this).html() + "!");
+    });
+    $("th").click(function (event) {
+        alert("Saat ini anda mengklik kolom yang berisi kata " + $(this).html() + "!");
+    });
+});
+    </script>
+</body>
+</html>
