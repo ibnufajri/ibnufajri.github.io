@@ -1,0 +1,183 @@
+body {
+  background: url(wp.JPG);
+}
+
+@font-face {
+  font-family: "Love";
+  src: url("Love.ttf");
+}
+
+.logo {
+  font-family: "Love";
+  color: whitesmoke;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -2px;
+  padding: top 10px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+img {
+  margin-top: 30px;
+  width: 200px;
+  height: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 99em;
+  box-shadow: 0px 0px 10px 5px;
+  color: crimson;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  margin: auto;
+}
+
+h1:hover {
+  letter-spacing: 2px;
+}
+
+h3 {
+  margin: 15px;
+  text-align: center;
+}
+
+.top {
+  margin: 0 0 10px;
+  transition: 0.5s;
+  background-color: lightyellow;
+}
+
+h3 {
+  margin: 30px 0 10px;
+  transition: 0.5s;
+}
+
+h3:hover {
+  letter-spacing: 2px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  text-decoration: blink;
+  letter-spacing: 2px;
+}
+
+.content {
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+  color: crimson;
+}
+
+.header {
+  background-color: transparent;
+  padding: 5px 10px 20px;
+  text-align: center;
+  border: 1px
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navigasi {
+  background-color: crimson;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+  margin: 0;
+  padding: 15px;
+  color:black ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.menu:hover {
+  background-color: lightpink;
+}
+
+.aktif {
+  background-color: whitesmoke;
+}
+
+.home {
+  background-color: transparent;
+  font-size: 15px;
+  font-family: times new roman;
+  color: crimson;
+  padding: 20px;
+  border-left: 1px
+  border-right: 1px
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.isi {
+  display: none;
+  background-color: transparent;
+  color: crimson;
+  padding: 20px;
+  border-left: 1px white;
+  border-right: 1px white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  margin-top: 4%;
+  background-color: transparent;
+  text-align: center;
+  border: 1px solid crimson;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  font-weight: bold;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tombolmenu1 {
+  color: whitesmoke;
+  border: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+.dropdown-bawah {
+  display: none;
+  background-color: whitesmoke;
+  min-width: 100px;
+}
+.dropdown-bawah a {
+  font-family: "Times New Roman";
+  color: whitesmoke;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-bawah h3 {
+  color: blue;
+  padding-top: 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-bawah {
+  display: block;
+}

@@ -1,0 +1,13 @@
+body {
+ background: linear-gradient(#c3cee5, #af6480);   
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
