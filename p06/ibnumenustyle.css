@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Helvetica";
+}
+@font-face {
+  font-family: "Author-DF";
+  src: url(Author-DF.ttf);
+}
+
+body {
+  background: url(wp.jpg);
+  padding: 0px;
+  margin: 0px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  position: absolute;
+  background-color: ghostwhite;
+  width: 100%;
+  height: 4rem;
+}
+
+.navbar1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 0px;
+}
+
+.navbar2 {
+  font-family: "Times New Roman";
+  font-size: 16px;
+  margin: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 30rem;
+  list-style: none;
+}
+
+.logo {
+  font-family: "Author-DF";
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -2px;
+  padding: top 10px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.isi__1,
+.isi__2,
+.isi__3,
+.isi__4 {
+  background-color: lightyellow;
+  border: solid 1px white;
+  padding-top: 4rem;
+  display: none;
+  color: royalblue;
+  font-family: Arial;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px gray;
+}
+
+.active {
+  font-weight: bolder;
+}
